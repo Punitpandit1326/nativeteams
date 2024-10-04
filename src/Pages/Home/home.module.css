@@ -1,0 +1,85 @@
+.left__section {
+  margin: 1.5rem 0;
+  height: 400px;
+
+  & h6 {
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #838a90;
+    font-family: inter;
+  }
+
+  & h1 {
+    font-weight: 300;
+    font-size: 3rem;
+    font-family: inter;
+  }
+
+  .main_sec {
+    margin-top: 1.7rem;
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.2rem;
+
+    .logo {
+      transition: all 0.3s ease-in-out;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 8px;
+      border-radius: 18px;
+      border: #5152fb;
+      background: #5152fb;
+      width: 56px;
+      height: 56px;
+
+      .btn_icon {
+        color: #fff;
+        font-weight: 600;
+        font-size: 1.6rem;
+      }
+    }
+
+    .logo_section h6 {
+      font-weight: 500;
+      font-size: 0.9rem;
+      text-align: center;
+      color: #838a90;
+      font-family: inter;
+    }
+  }
+
+  .new_card {
+    margin-top: 1.5rem;
+    padding: 0.4rem 1rem;
+    width: 9rem;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #5152fb;
+
+    & p {
+      font-family: inter;
+      font-size: 0.75rem;
+      color: #5152fb;
+      font-weight: 500;
+      padding-top: 10px;
+    }
+  }
+}
+
+.right_section {
+  width: 100%;
+  padding: 1.2rem;
+  height: 28.5rem;
+  margin: 1.5rem 0;
+  border-radius: 2rem;
+  background: #1a1a61 url(../../../public/img/bg.svg) no-repeat bottom;
+  background-size: contain;
+
+  & h2 {
+    font-size: 2rem;
+    color: #fff;
+    font-family: Inter;
+    font-weight: 700;
+  }
+}

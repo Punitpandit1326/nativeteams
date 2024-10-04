@@ -1,0 +1,35 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+
+  & button {
+    width: 7.5rem;
+    height: 2.6rem;
+    font-size: 1.1rem;
+    font-family: inter;
+    color: #2e76d4;
+    font-weight: 500;
+    border-radius: 100px;
+    background: #ebeef2;
+    border: 1px solid #2e76d4;
+  }
+
+  & button:hover{
+    color: #ebeef2;
+    background: #2e76d4;
+    border: none;
+  }
+
+  .right {
+    display: flex;
+    gap: 15px;
+
+    .icon {
+        cursor: pointer;
+      margin-top: 7px;
+      font-size: 1.7rem;
+      color: #2e76d4;
+    }
+  }
+}
